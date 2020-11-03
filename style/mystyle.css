@@ -1,0 +1,266 @@
+:root {
+    --yellow:#ffbc2f;
+    --red: #d82727;
+    --black: #1b1b1b;
+    --titlesFont: 'Yanone Kaffeesatz', Arial, sans-serif;
+}
+
+body {
+    color: var(--black);
+    background-color: #fcf5e6;
+}
+a {
+    text-decoration: none;
+}
+.hero--product--page {
+    margin-bottom: 90px;
+}
+.product-view {
+    margin-bottom: 90px;
+}
+.product__kart {
+    display: flex;
+    background-color: #ffc92f;
+}
+.product__images {
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.tshirt__img {
+    height: 75%;
+}
+hr {
+    margin: 0;
+    color: #e0d9c8;
+}
+.product__desc {
+    background-color: #fcf5e6;
+    margin: 10px 0px 10px 10px;
+    max-width: 50%;
+    min-width: 530px;
+}
+.product__desc__text {
+    padding: 25px ;
+}
+.name__tshirt {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #fcba2e;
+    margin: 0;
+}
+.title__tshirt {
+    font-family: var(--titlesFont);
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 47px;
+}
+.price__tshirt {
+    font-size: 38px;
+    font-weight: bold;
+    font-family: var(--titlesFont);
+    color: var(--black);
+    background-color: var(--yellow);
+    display: inline-block;
+    padding: 0 10px;
+
+}
+.info__list {
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 25px;
+}
+.product__info__item {
+    margin-bottom: 5px;
+}
+.color__filter__item {
+    background-color: #000000;
+    border-radius: 50%;
+    display: block;
+    width: 25px;
+    height: 25px;
+}
+.filter__color {
+    display: flex;
+    padding-left: 25px;
+}
+.filter__color li {
+    margin-left: 20px;
+    padding: 0;
+}
+.filter__color :first-child {
+    margin-left: 0;
+}
+.color--2 {
+    width: 23px;
+    height: 23px;
+    border: 2px solid #e0d9c8;
+    background-color: #fcf5e6;
+}
+.color--3 {
+    width: 25px;
+    height: 25px;
+    background-color: #529029;
+}
+.color--4 {
+    width: 25px;
+    height: 25px;
+    background-color: #39498d;
+}
+.color--5 {
+    width: 25px;
+    height: 25px;
+    background-color: #d82727;
+}
+.color__filter__item:hover {
+    width: 30px;
+height: 30px;
+border: 3px solid #ffc92f;
+}
+.color__filter__item--active {
+    width: 30px;
+height: 30px;
+border: 3px solid #ffc92f;
+}
+.sizes__list {
+    display: flex;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+    padding-left: 25px;
+}
+.disabled {
+    pointer-events: none;
+    
+}
+
+.size__item a {
+    color: #212121;
+}
+.size__item--no__active a {
+    color: #e0d9c8;
+}
+.size__item, .size__item--no__active {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #e0d9c8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3px;
+}
+.size__item:first-child {
+    margin-left: 0;
+}
+.size__item:hover {
+    background-color: #ffc92f;
+}
+.size__item--no__active:hover {
+    background-color:#fcf5e6;
+}
+.size__item--active {
+    background-color: #ffc92f;
+}
+.btn {
+    font-size: 28px;
+    margin: 0 25px 10px;
+}
+.product-information__tabs {
+    margin-bottom: 75px;
+}
+.info__tabs {
+    border: 10px solid #ffc92f;
+    display: flex;
+    width: 98%;
+}
+.tabs__aside {
+    max-width: 30%;
+}
+.tabs__info__desc {
+    max-width: 50%;
+}
+.tabs__list {
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    border-right: 1px solid #e5dece;
+    margin: 0;
+    padding: 30px;
+}
+.tabs__list__icon {
+    margin-right: 25px;
+    display: inline-block;
+    max-width: 10%;
+    max-height: 23px;
+}
+.tabs__list__item {
+    display: flex;
+    align-items: center;
+}
+.tabs__info__desc {
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    padding: 40px 90px 0 40px;
+}
+.tabs__table__aside {
+    max-width: 30%;
+}
+.tabs__table {
+    margin-left: 5%;
+}
+table.size__table{
+	width: 100%;
+	border-collapse:collapse;
+	border-spacing:0;
+    height: auto;
+    width: 704px;
+    height: 453px;
+}
+.size__images {
+    height: 70%;
+    height: 50%;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+.size__infolist {
+    font-size: 12px;
+    margin-top: -90px;
+    padding-top: 20px;
+    padding-right: 40px;
+}
+.tabs__table__aside--display {
+    max-width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+}
+table.size__table td, table.size__table th {
+	border: 1px solid #e5dece;
+}
+table.size__table td,table.size__table th {
+	padding: 3px;
+	width: 30px;
+	height: 35px;
+}
+table.size__table th { 
+	background-color: #f6efe0;
+	font-weight: bold;
+}
+.tabs__aside--image{
+    border-right: 1px solid #e5dece;
+    padding: 50px;
+}
+.tabs__desc__text__position {
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 26.31px;
+}
+.tabs__info__desc--padding__size{
+    padding-left: 100px;
+}
+img.logo__harley{
+    width: 100%;
+    margin-bottom: 30px;
+}
